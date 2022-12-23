@@ -12,9 +12,9 @@ This is a repository for rules of RoboCup Japan Open 2022 @Home League.
 # Domestic Standard Platform League (DSPL)
 ## Tasks
 - Robot Inspection (setup day)
-- Restaurant
+- [Restaurant](rules/dspl/restaurant.md)
 - General Purpose Service Robots (GPSR)
-- [Tidy Up for WRS2020](rules/tidyup_ja.md)
+- [Tidy Up for WRS2020](rules/dspl/tidyup.md)
 - Finals
 
 # LINK
