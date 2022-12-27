@@ -8,10 +8,10 @@ This is a repository for rules of RoboCup Japan Open 2022 @Home League.
 # Open Platform League (OPL)
 ## Tasks
 - Robot Inspection (setup day)
-- Carry My Luggage
-- Receptionist
-- TidyUp for OPL
-- General Purpose Service Robot (GPSR)
+- [Carry My Luggage](rules/opl/carry_my_luggage.md)
+- [Receptionist](rules/opl/receptionist.md)
+- [TidyUp for OPL](rules/opl/tidy_up.md)
+- [General Purpose Service Robot (GPSR)](rules/opl/general_purpose_service_robot.md)
 - Finals
 
 # Domestic Standard Platform League (DSPL)
