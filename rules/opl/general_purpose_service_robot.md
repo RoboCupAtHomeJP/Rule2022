@@ -92,12 +92,8 @@
     <td colspan="2" align="center"> <b>メインタスク</b> </td>
   </tr>
   <tr>
-    <td> 命令理解 <br> 
-      <ul>
-        <li> 命令を理解できた </li>
-      </ul> 
-    </td>
-    <td align="center"> <!-- 60 --> <br> 3 × 20 </td>
+    <td> 命令を理解できた </td>
+    <td align="center"> 3 × 20 </td>
   </tr>
   <tr>
     <td> 1回目の命令タスク※を実行 <br> 
