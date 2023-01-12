@@ -83,8 +83,6 @@
 
 
 ## スコアシート
-<!-- ※ Bringタスクを例に部分点を記載 -->
-
 <table>
   <tr>
     <th> <b>Action</b> </th>
@@ -94,15 +92,15 @@
     <td colspan="2" align="center"> <b>メインタスク</b> </td>
   </tr>
   <tr>
-    <td> <b>命令理解</b> <br> 
+    <td> 命令理解 <br> 
       <ul>
         <li> 命令を理解できた </li>
       </ul> 
     </td>
-    <td align="center"> <b>60</b> <br> 3 × 20 </td>
+    <td align="center"> <!-- 60 --> <br> 3 × 20 </td>
   </tr>
   <tr>
-    <td> <b>1回目の命令タスク※を実行</b> <br> 
+    <td> 1回目の命令タスク※を実行 <br> 
       <ul>
         <li> タスクを完遂する(Command Category(Cat.)で倍率変動) </li>
         <ul>
@@ -113,10 +111,10 @@
         </ul>
       </ul> 
     </td>
-    <td align="center"> <b>60</b> <br> 20 × Cat. <br> 5 <br> 5 <br> 5 <br> 5 </td>
+    <td align="center"> <!-- 60 --> <br> 20 × Cat. <br> 5 <br> 5 <br> 5 <br> 5 </td>
   </tr>
   <tr>
-    <td> <b>2回目の命令タスク※を実行</b> <br> 
+    <td> 2回目の命令タスク※を実行</b> <br> 
       <ul>
         <li> タスクを完遂する(Command Category(Cat.)で倍率変動) </li>
         <ul>
@@ -127,10 +125,10 @@
         </ul>
       </ul> 
     </td>
-    <td align="center"> <b>60</b> <br> 40 × Cat. <br> 10 <br> 10 <br> 10 <br> 10 </td>
+    <td align="center"> <!-- 60 --> <br> 40 × Cat. <br> 10 <br> 10 <br> 10 <br> 10 </td>
   </tr>
   <tr>
-    <td> <b>3回目の命令タスク※を実行</b> <br> 
+    <td> 3回目の命令タスク※を実行 <br> 
       <ul>
         <li> タスクを完遂する(Command Category(Cat.)で倍率変動) </li>
         <ul>
@@ -141,24 +139,25 @@
         </ul>
       </ul> 
     </td>
-    <td align="center"> <b>60</b> <br> 80 × Cat. <br> 20 <br> 20 <br> 20 <br> 20 </td>
+    <td align="center"> <!-- 60 --> <br> 80 × Cat. <br> 20 <br> 20 <br> 20 <br> 20 </td>
   </tr>
   <tr>
-    <td> <b>全てのコマンドを実行した後アリーナから退出</b> </td>
-    <td align="center"> <b>20</b> </td>
+    <td> 全てのコマンドを実行した後アリーナから退出 </td>
+    <td align="center"> 20 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b>ペナルティ</b> </td>
   </tr>
   <tr>
-    <td> <b>不参加(無断)</b> </td>
-    <td align="center"> <b>-500</b> </td>
+    <td> 不参加(無断) </td>
+    <td align="center"> -500 </td>
   </tr>
   <tr>
     <td> <b>合計(ボーナスタスクを除く)</b> </td>
     <td align="center"> <b>500</b> </td>
   </tr>
 </table>
+※ Bringタスクを例に部分点を記載
 
 <!--
 ## 運営のやること
