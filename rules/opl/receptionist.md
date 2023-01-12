@@ -100,73 +100,67 @@
     <td colspan="2" align="center"> <b> メインタスク </b> </td>
   </tr>
   <tr>
-    <td> <b> 1人目のゲストをオーナ(ジョン)に紹介する </b> <br> 
+    <td> 1人目のゲストをオーナ(ジョン)に紹介する <br> 
       <ul>
         <li> 1人目のゲストの名前を紹介する </li>
         <li> 1人目のゲストの好きな飲み物を紹介する </li>
         <li> 紹介中，1人目のゲストを指差す／向く </li>
       </ul> 
     </td>
-    <td align="center"> <b> 50 </b> <br> 15 <br> 15 <br> 20 </td>
+    <td align="center"> <!-- 50　--> <br> 15 <br> 15 <br> 20 </td>
   </tr>
   <tr>
-    <td colspan="2" align="center"> <b>メインタスク (Task 2)</b> </td>
-  </tr>
-  <tr>
-    <td> <b> 1人目のゲストに空いている席を案内する </b> <br> 
+    <td> 1人目のゲストに空いている席を案内する <br> 
       <ul>
         <li> 空席を検出する </li>
         <li> 空席を指差す／向いて提供する </li>
       </ul> 
     </td>
-    <td align="center"> <b> 75 </b> <br> 35 <br> 40 </td>
+    <td align="center"> <!-- 75 --> <br> 35 <br> 40 </td>
   </tr>
   <tr>
-    <td colspan="2" align="center"> <b>メインタスク (Task 2)</b> </td>
-  </tr>
-  <tr>
-    <td> <b>2人目のゲストをオーナ(ジョン)に紹介する</b> <br> 
+    <td> 2人目のゲストをオーナ(ジョン)に紹介する <br> 
       <ul>
         <li> 2人目のゲストの名前を紹介する </li>
         <li> 2人目のゲストの好きな飲み物を紹介する </li>
         <li> 紹介中，2人目のゲストを指差す／向く </li>
       </ul> 
     </td>
-    <td align="center"> <b> 50 </b> <br> 15 <br> 15 <br> 20 </td>
+    <td align="center"> <!-- 50 --> <br> 15 <br> 15 <br> 20 </td>
   </tr>
   <tr>
-    <td> <b> 2人目のゲストに空いている席を案内する </b> <br> 
+    <td> 2人目のゲストに空いている席を案内する <br> 
       <ul>
         <li> 空席を検出する </li>
         <li> 空席を指差す／向いて提供する </li>
       </ul> 
     </td>
-    <td align="center"> <b> 75 </b> <br> 35 <br> 40 </td>
+    <td align="center"> <!-- 75 --> <br> 35 <br> 40 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b> ボーナスタスク </b> </td>
   </tr>
   <tr>
-    <td> <b>ドアを開ける</b> <br> 
+    <td> ドアを開ける <br> 
       <ul>
         <li> ゲストに対して入り口のドアを開けてあげる </li>
       </ul> 
     </td>
-    <td align="center"> <b> 200 </b> <br> 2 × 100 </td>
+    <td align="center"> <!-- 200 --> <br> 2 × 100 </td>
   </tr>
   <tr>
-    <td> <b> 最年長の方をソファに座らせる </b> <br> </td>
-    <td align="center"> <b> 50 </b> </td>
+    <td> 最年長の方をソファに座らせる <br> </td>
+    <td align="center"> 50 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b>ペナルティ</b> </td>
   </tr>
   <tr>
-    <td> <b> 不参加(無断) </b> </td>
-    <td align="center"> <b> -500 </b> </td>
+    <td> 不参加(無断) </td>
+    <td align="center"> -500 </td>
   </tr>
   <tr>
-    <td> <b> 合計(ボーナスタスクの上二項目を含む) </b> </td>
+    <td> <b> 合計(ボーナスタスクを含む) </b> </td>
     <td align="center"> <b> 500 </b> </td>
   </tr>
 </table>
