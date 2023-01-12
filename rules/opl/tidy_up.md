@@ -92,24 +92,24 @@
     <td colspan="2" align="center"> <b>メインタスク (Task 1)</b> </td>
   </tr>
   <tr>
-    <td> <b>物体を片付ける</b> <br> 
+    <td> 物体を片付ける <br> 
       <ul>
         <li> 物体を把持する </li>
         <li> 物体を運搬し，設置・収納する </li>
         <li> 物体を正しい場所に設置・収納する </li>
       </ul> 
     </td>
-    <td align="center"> <b>200</b> <br> 5 × 10 <br> 5 × 10 <br> 5 × 20 </td>
+    <td align="center"> <!-- 200 --> <br> 5 × 10 <br> 5 × 10 <br> 5 × 20 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b>メインタスク (Task 2)</b> </td>
   </tr>
   <tr>
-    <td> <b>障害物に衝突することなくダイニングルームに入る</b> </td>
-    <td align="center"> <b>100</b> </td>
+    <td> 障害物に衝突することなくダイニングルームに入る </td>
+    <td align="center"> 100 </td>
   </tr>
   <tr>
-    <td> <b>物体を提供する</b> <br> 
+    <td> 物体を提供する <br> 
       <ul>
         <li> 棚からフードアイテムを把持する </li>
         <li> 棚から指示されたフードアイテムを把持する </li>
@@ -117,17 +117,17 @@
         <li> 手を挙げている人を検出し，物体を渡す </li>
       </ul> 
     </td>
-    <td align="center"> <b>200</b> <br> 40 <br> 60 <br> 40 <br> 60 </td>
+    <td align="center"> <!-- 200 --> <br> 40 <br> 60 <br> 40 <br> 60 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b>ペナルティ</b> </td>
   </tr>
   <tr>
-    <td> <b>不参加(無断)</b> </td>
-    <td align="center"> <b>-500</b> </td>
+    <td> 不参加(無断) </td>
+    <td align="center"> -500 </td>
   </tr>
   <tr>
-    <td> <b>合計(ボーナスタスクの上二項目を含む)</b> </td>
+    <td> <b>合計(ボーナスタスクを含む)</b> </td>
     <td align="center"> <b>500</b> </td>
   </tr>
 </table>
