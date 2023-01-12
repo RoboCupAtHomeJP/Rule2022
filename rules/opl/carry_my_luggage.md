@@ -108,7 +108,7 @@
     <td colspan="2" align="center"> <b>メインタスク</b> </td>
   </tr>
   <tr>
-    <td> <b> バッグをアリーナの外にあるゴールまで運ぶ </b> <br> 
+    <td> バッグをアリーナの外にあるゴールまで運ぶ <br> 
       <ul>
         <li> オペレータが選択したバッグの検出 </li>
         <li> 選択されたバッグの把持 </li>
@@ -116,44 +116,44 @@
         <li> オペレーターを追従してアリーナの外にあるゴールへ着く </li>
       </ul> 
     </td>
-    <td align="center"> <b> 250 </b> <br> 50 <br> 100 <br> 50 <br> 50 </td>
+    <td align="center"> <!-- 250 --> <br> 50 <br> 100 <br> 50 <br> 50 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b> ボーナスタスク </b> </td>
   </tr>
   <tr>
-    <td> <b> アリーナへの再入場 </b>
+    <td> アリーナへの再入場
       <ul>
         <li> 自律的にアリーナの内に入る </li>
         <li> 自律的にスタート地点へ戻る </li>
     </td>
-    <td align="center"> <b> 50 </b> <br> 25 <br> 25 </td>
+    <td align="center"> <!-- 50 --> <br> 25 <br> 25 </td>
   </tr>
   <tr>
-    <td> <b> 人混み(3～4人)を回避する </b> <br> </td>
-    <td align="center"> <b> 50 </b> </td>
+    <td> 人混み(3～4人)を回避する <br> </td>
+    <td align="center"> 50 </td>
   </tr>
   <tr>
-    <td> <b> 地面にある小さな物体(積み木など)を回避する </b> <br> </td>
-    <td align="center"> <b> 50 </b> </td>
+    <td> 地面にある小さな物体(積み木など)を回避する <br> </td>
+    <td align="center"> 50 </td>
   </tr>
   <tr>
-    <td> <b> 見づらい3Dオブジェクト(椅子など)を回避する </b> <br> </td>
-    <td align="center"> <b> 50 </b> </td>
+    <td> 見づらい3Dオブジェクト(椅子など)を回避する <br> </td>
+    <td align="center"> 50 </td>
   </tr>
   <tr>
-    <td> <b> 開閉式バリア(ガイドポールなど)を回避する </b> <br> </td>
-    <td align="center"> <b> 50 </b> </td>
+    <td> 開閉式バリア(ガイドポールなど)を回避する <br> </td>
+    <td align="center"> 50 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b>ペナルティ</b> </td>
   </tr>
   <tr>
-    <td> <b> 不参加(無断) </b> </td>
-    <td align="center"> <b>-500</b> </td>
+    <td> 不参加(無断) </td>
+    <td align="center"> -500 </td>
   </tr>
   <tr>
-    <td> <b>合計(ボーナスタスクの上二項目を含む)</b> </td>
+    <td> <b>合計(ボーナスタスクを含む)</b> </td>
     <td align="center"> <b>500</b> </td>
   </tr>
 </table>
