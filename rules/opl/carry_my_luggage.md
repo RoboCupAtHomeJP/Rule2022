@@ -116,7 +116,15 @@
         <li> オペレーターを追従してアリーナの外にあるゴールへ着く </li>
       </ul> 
     </td>
-    <td align="center"> <!-- 250 --> <br> 50 <br> 100 <br> 50 <br> 50 </td>
+<!--     <td> 250 <br> 
+      <ul  style="list-style: none;">
+        <li> 50 </li>
+        <li> 100 </li>
+        <li> 50 </li>
+        <li> 50 </li>
+      </ul> 
+    </td> -->
+    <td align="center"> <!-- 250 <br> --> 50 <br> 100 <br> 50 <br> 50 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b> ボーナスタスク </b> </td>
@@ -127,7 +135,7 @@
         <li> 自律的にアリーナの内に入る </li>
         <li> 自律的にスタート地点へ戻る </li>
     </td>
-    <td align="center"> <!-- 50 --> <br> 25 <br> 25 </td>
+    <td align="center"> <!-- 50 <br> --> 25 <br> 25 </td>
   </tr>
   <tr>
     <td> 人混み(3～4人)を回避する <br> </td>
