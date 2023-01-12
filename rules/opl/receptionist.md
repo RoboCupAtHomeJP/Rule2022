@@ -107,7 +107,7 @@
         <li> 紹介中，1人目のゲストを指差す／向く </li>
       </ul> 
     </td>
-    <td align="center"> <!-- 50　--> <br> 15 <br> 15 <br> 20 </td>
+    <td align="center"> <!-- 50 <br>　--> 15 <br> 15 <br> 20 </td>
   </tr>
   <tr>
     <td> 1人目のゲストに空いている席を案内する <br> 
@@ -116,7 +116,7 @@
         <li> 空席を指差す／向いて提供する </li>
       </ul> 
     </td>
-    <td align="center"> <!-- 75 --> <br> 35 <br> 40 </td>
+    <td align="center"> <!-- 75 <br> --> 35 <br> 40 </td>
   </tr>
   <tr>
     <td> 2人目のゲストをオーナ(ジョン)に紹介する <br> 
@@ -126,7 +126,7 @@
         <li> 紹介中，2人目のゲストを指差す／向く </li>
       </ul> 
     </td>
-    <td align="center"> <!-- 50 --> <br> 15 <br> 15 <br> 20 </td>
+    <td align="center"> <!-- 50 <br> --> 15 <br> 15 <br> 20 </td>
   </tr>
   <tr>
     <td> 2人目のゲストに空いている席を案内する <br> 
@@ -135,7 +135,7 @@
         <li> 空席を指差す／向いて提供する </li>
       </ul> 
     </td>
-    <td align="center"> <!-- 75 --> <br> 35 <br> 40 </td>
+    <td align="center"> <!-- 75 <br> --> 35 <br> 40 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b> ボーナスタスク </b> </td>
