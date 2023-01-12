@@ -141,12 +141,8 @@
     <td colspan="2" align="center"> <b> ボーナスタスク </b> </td>
   </tr>
   <tr>
-    <td> ドアを開ける <br> 
-      <ul>
-        <li> ゲストに対して入り口のドアを開けてあげる </li>
-      </ul> 
-    </td>
-    <td align="center"> <!-- 200 --> <br> 2 × 100 </td>
+    <td> ゲストに対して入り口のドアを開けてあげる </td>
+    <td align="center"> 2 × 100 </td>
   </tr>
   <tr>
     <td> 最年長の方をソファに座らせる <br> </td>
