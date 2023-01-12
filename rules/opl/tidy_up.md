@@ -99,7 +99,7 @@
         <li> 物体を正しい場所に設置・収納する </li>
       </ul> 
     </td>
-    <td align="center"> <!-- 200 --> <br> 5 × 10 <br> 5 × 10 <br> 5 × 20 </td>
+    <td align="center"> <!-- 200 <br> --> 5 × 10 <br> 5 × 10 <br> 5 × 20 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b>メインタスク (Task 2)</b> </td>
@@ -117,7 +117,7 @@
         <li> 手を挙げている人を検出し，物体を渡す </li>
       </ul> 
     </td>
-    <td align="center"> <!-- 200 --> <br> 40 <br> 60 <br> 40 <br> 60 </td>
+    <td align="center"> <!-- 200 <br> --> 40 <br> 60 <br> 40 <br> 60 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b>ペナルティ</b> </td>
