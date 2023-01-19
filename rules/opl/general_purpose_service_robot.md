@@ -6,7 +6,7 @@
 
 ## OPLで共通するルール
  - 各競技の最高得点は500点
- - Robot InspectionとFinalsを除く
+   - Robot InspectionとFinalsを除く
  - チームはFinalsを除く各競技における最高得点の合計点で競う
  - FinalsはTechnical Challengeとして本競技と別枠で表彰する
    - Finalsのみの参加も可能
@@ -210,7 +210,8 @@
     <td align="center"> <b>500</b> </td>
   </tr>
 </table>
-※ Bringタスクを例に部分点を記載
+
+※ スコアシートでは，Bringタスクを例に部分点を記載しています．
 
 <!--
 ## 運営のやること
