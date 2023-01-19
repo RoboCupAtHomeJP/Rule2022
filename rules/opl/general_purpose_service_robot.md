@@ -7,6 +7,23 @@
 ## OPLで共通するルール
  - 各競技の最高得点は500点
  - Robot InspectionとFinalsを除く
+ - チームはFinalsを除く各競技における最高得点の合計点で競う
+ - FinalsはTechnical Challengeとして本競技と別枠で表彰する
+   - Finalsのみの参加も可能
+ - オペレータは自チームから出してよい
+ - 制限時間内のリスタートは何回行ってもよい
+   - リスタート直後のタスクの点数は半分になる(要検討)
+   - リスタート時，ロボットが持っている場合は，物体を持たせたままにするか，取り上げるかはチームが選択できる
+   - ただし取り上げた物体は，その後アリーナの外で保管
+   - このTask中で取り上げた物体は使うことが出来ない
+- 音声対話で聞き返す回数による減点はなし
+- 競技の達成時間による加点はなし(要検討)
+- 競技で使用するオブジェクトは[AtHome2021で使用されたもの](https://github.com/RoboCupAtHomeJP/AtHome2021/blob/master/Data/opl_known_object_list.pdf)を用いる
+
+
+<!-- 
+ - 各競技の最高得点は500点
+ - Robot InspectionとFinalsを除く
  - チームは各競技における最高得点の合計点で競う
    - Finalsを含むかどうか(要検討)
  - オペレータは自チームから出していい
@@ -15,7 +32,7 @@
    - ただし取り上げた物体は，その後アリーナの外で保管)
    - このTask中で取り上げた物体は使うことが出来ない
 - 音声対話で聞き返す回数による減点はなし
-- 競技の達成時間による加点はなし(要検討)
+- 競技の達成時間による加点はなし(要検討) -->
 
 ## メインゴール
 このタスクでは，ロボットがユーザからの様々な要求に対して応じる汎用サービスを想定しています．そのため，この競技では，予め決められたタスクの流れや命令，行動内容などは存在しません．競技内でユーザが要求するタスクは，大量に用意したタスク内容の中から審査員によってランダムに選択されていきます．これらの要求は，複雑さに応じて3つのカテゴリに分類され，このカテゴリの難易度に基づいて得点も変化していきます．
@@ -51,8 +68,9 @@
      2回目，3回目の命令を達成するとスコアが高くなるため，あえて命令を聞き取るだけにとどめて，何もせずに戻ってきて次の命令にトライすることは禁止とします．
      タスク達成のために何らかの挑戦を行わなければないけません．また，2回目，3回目の命令のスコアの扱いは1回目，2回目のタスクを達成できたかどうかで判断します．
   
-  **※ コマンドジェネレータは使用せずに運営側で作成したものを使用**<br>
-     例「Please go to <場所>, and pick up <物>」みたいに変数が入るコマンドリストを用意して，コマンドリストと変数の両方を抽選する形式になります．
+  **※ コマンドジェネレータの事前公開**<br>
+     RoboCup@Homeの[GitHubに公開されているコマンドジェネレータ](https://github.com/RoboCupAtHome/Sydney2019)を使用します(2019 Sydney 世界大会)．
+     しかし，カテゴリやオブジェクト，場所名などは本番用に向けて変更されるので，あくまでテスト用としての使用に限ります．
 
 ## デウスエクスマキナ
 本タスクでは，次のデウスエクスマキナが採用されます．デウスエクスマキナでは該当アクションの点数は入らないが，より簡単な手法でアクションをスキップし，タスクを継続することができます．
@@ -76,6 +94,59 @@
       <ul>
         <li> ロボットがタスクを行うのを何かしらの方法で支援する事もできる </li>
         <li> その場合，審査員基準で50～200pts減点される </li>
+      </ul> 
+    </td>
+  </tr>
+   <tr>
+    <td> コマンドセットの使用 </td>
+    <td>
+      <ul>
+        <li> Command Category 1の命令文をコマンドジェネレータで生成する代わりに，コマンドセットを使用する </li>
+        <li> その場合，命令理解の得点は0.7倍される </li>
+      </ul> 
+    </td>
+  </tr>
+</table>
+     
+### コマンドセット
+<table>
+  <tr>
+    <th> <b>タスクの種類<b> </th>
+    <th> <b>命令文例<b> </th>
+  </tr>
+  <tr>
+    <td> bring </td>
+    <td>
+      <ul>
+        <li> Go to the &dollar; 部屋名, grasp the &dollar; 物体名 on the &dollar; 場所名 and place it on the &dollar; 場所名. </li>
+        <li> Go to the &dollar; 部屋名, grasp the &dollar; 物体名 on the &dollar; 場所名 and give it to &dollar; 人物名. </li>
+      </ul> 
+    </td>
+  </tr>
+  <tr>
+    <td> vision <br> (find obj | people) </td>
+    <td>
+      <ul>
+        <li> Tell me how many &dollar; 物体カテゴリー名 there are on the  &dollar; 場所名. </li>
+        <li> Tell me how many people in the &dollar; 部屋名 are &dollar; ポーズ. </li>
+      </ul> 
+    </td>
+  </tr>
+  <tr>
+    <td> navigation <br> (follow, guide) </td>
+    <td>
+      <ul>
+        <li> Go to the &dollar; 部屋名, find &dollar; 人物名 at the &dollar; 場所名 and follow (him | her). </li>
+        <li> Go to the &dollar; 部屋名, find &dollar; 人物名 at the &dollar; 場所名 and guide (him | her) to the &dollar; 場所名. </li>
+      </ul> 
+    </td>
+  </tr>
+  <tr>
+    <td> speech <br> (question, answer) </td>
+    <td>
+      <ul>
+        <li> Go to the &dollar; 部屋名, find &dollar; 人物名 at the &dollar; 場所名 and answer (his | her) question. </li>
+        <li> Go to the &dollar; 部屋名, find &dollar; 人物名 at the &dollar; 場所名 and ask (him | her) &dollar; 質問. </li>
       </ul> 
     </td>
   </tr>
