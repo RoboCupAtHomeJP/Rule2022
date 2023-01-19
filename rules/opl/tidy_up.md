@@ -7,7 +7,7 @@
 
 ## OPLで共通するルール
  - 各競技の最高得点は500点
- - Robot InspectionとFinalsを除く
+   - Robot InspectionとFinalsを除く
  - チームはFinalsを除く各競技における最高得点の合計点で競う
  - FinalsはTechnical Challengeとして本競技と別枠で表彰する
    - Finalsのみの参加も可能
@@ -111,7 +111,7 @@
         <li> 物体を正しい場所に設置・収納する (15点/1個) </li>
       </ul> 
     </td>
-    <td align="center"> <!-- 200 <br> --> 10 × 10 <br> 10 × 10 <br> 15 × 10 </td>
+    <td align="center"> <!-- 200 <br> --> 10 × 10 <br> 10 × 10 <br> 10 × 15 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b>メインタスク (Task 2)</b> </td>
@@ -144,7 +144,7 @@
   </tr>
 </table>
 
-OPLのスコアシート参考：[RCJP_opl_tidyup_scoresheet_v1](https://docs.google.com/spreadsheets/d/1Dn0LTINAVYMcSL2Yoqi4iicPZOmU6h8e/edit?usp=sharing&ouid=115914283332872721627&rtpof=true&sd=true)
+OPLのスコアシート：[RCJP_opl_tidyup_scoresheet_v1](https://docs.google.com/spreadsheets/d/1Dn0LTINAVYMcSL2Yoqi4iicPZOmU6h8e/edit?usp=sharing&ouid=115914283332872721627&rtpof=true&sd=true)
  
 <!--
 ## 運営のやること
