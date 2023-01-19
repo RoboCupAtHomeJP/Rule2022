@@ -7,7 +7,7 @@
 
 ## OPLで共通するルール
  - 各競技の最高得点は500点
- - Robot InspectionとFinalsを除く
+   - Robot InspectionとFinalsを除く
  - チームはFinalsを除く各競技における最高得点の合計点で競う
  - FinalsはTechnical Challengeとして本競技と別枠で表彰する
    - Finalsのみの参加も可能
@@ -118,7 +118,6 @@
 </table>
 
 ## スコアシート
-Educationリーグとは以下の採点方式のみ異なる
 <table>
   <tr>
     <th> <b>Action</b> </th>
@@ -186,8 +185,8 @@ Educationリーグとは以下の採点方式のみ異なる
   </tr>
 </table>
 
+※ Educationリーグと同じ競技を採用していますが，差別化のため異なる採点方式を用いています．
 
-     
 <!--
 ## 運営のやること
 - 準備
