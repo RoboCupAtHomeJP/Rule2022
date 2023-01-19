@@ -106,19 +106,19 @@
   <tr>
     <td> 物体を片付ける <br> 
       <ul>
-        <li> 物体を把持する </li>
-        <li> 物体を運搬し，設置・収納する </li>
-        <li> 物体を正しい場所に設置・収納する </li>
+        <li> 物体を把持する (10点/1個) </li>
+        <li> 物体を運搬し，設置・収納する (10点/1個) </li>
+        <li> 物体を正しい場所に設置・収納する (15点/1個) </li>
       </ul> 
     </td>
-    <td align="center"> <!-- 200 <br> --> 5 × 10 <br> 5 × 10 <br> 5 × 20 </td>
+    <td align="center"> <!-- 200 <br> --> 10 × 10 <br> 10 × 10 <br> 15 × 10 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b>メインタスク (Task 2)</b> </td>
   </tr>
   <tr>
     <td> 障害物に衝突することなくダイニングルームに入る </td>
-    <td align="center"> 100 </td>
+    <td align="center"> 30 </td>
   </tr>
   <tr>
     <td> 物体を提供する <br> 
@@ -129,7 +129,7 @@
         <li> 手を挙げている人を検出し，物体を渡す </li>
       </ul> 
     </td>
-    <td align="center"> <!-- 200 <br> --> 40 <br> 60 <br> 40 <br> 60 </td>
+    <td align="center"> <!-- 200 <br> --> 30 <br> 30 <br> 30 <br> 30 </td>
   </tr>
   <tr>
     <td colspan="2" align="center"> <b>ペナルティ</b> </td>
@@ -144,7 +144,7 @@
   </tr>
 </table>
 
-OPLのスコアシート参考：[RCAP_scoresheet_opl_official_v3](https://docs.google.com/spreadsheets/d/1oKK5UWud1bzt7L1nRFPCuedH94wa1zbOxEy8m7_fPVA/edit?usp=sharing)
+OPLのスコアシート参考：[RCJP_opl_tidyup_scoresheet_v1](https://docs.google.com/spreadsheets/d/1Dn0LTINAVYMcSL2Yoqi4iicPZOmU6h8e/edit?usp=sharing&ouid=115914283332872721627&rtpof=true&sd=true)
  
 <!--
 ## 運営のやること
