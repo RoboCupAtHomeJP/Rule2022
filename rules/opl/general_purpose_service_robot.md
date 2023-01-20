@@ -56,9 +56,7 @@
      タスク達成のために何らかの挑戦を行わなければないけません．また，2回目，3回目の命令のスコアの扱いは1回目，2回目のタスクを達成できたかどうかで判断します．
   
   **※ コマンドジェネレータの使用**<br>
-     RoboCup@Homeの[GitHubに公開されているコマンドジェネレータ](https://github.com/RoboCupAtHome/Sydney2019)を使用します(2019 Sydney 世界大会)．
-     しかし，カテゴリやオブジェクト，場所名などは本番用に向けて変更されるので，あくまでテスト用としての使用に限ります.
-     本番では，事前にコマンドを生成し，実行可能かチェックされたものを用います．
+     RoboCup@Homeの[GitHubに公開されているコマンドジェネレータ](https://github.com/RoboCupAtHome/Sydney2019)を使用する(2019 Sydney 世界大会)．しかし，カテゴリやオブジェクト，場所名などは本番用に向けて変更されるので，あくまでテスト用としての使用に限る.
 
 ## デウスエクスマキナ
 本タスクでは，次のデウスエクスマキナが採用されます．デウスエクスマキナでは該当アクションの点数は入らないが，より簡単な手法でアクションをスキップし，タスクを継続することができます．
@@ -108,8 +106,8 @@
     <th> bring </th>
     <td>
       <ul>
-        <li> Go to the &#36; 部屋名, grasp the &#36; 物体名 on the &#36; 場所名 and place it on the &#36; 場所名. </li>
-        <li> Go to the &#36; 部屋名, grasp the &#36; 物体名 on the &#36; 場所名 and give it to &#36; 人物名. </li>
+        <li> Go to the &#36;部屋名, grasp the &#36;物体名 on the &#36;場所名 and place it on the &#36;場所名. </li>
+        <li> Go to the &#36;部屋名, grasp the &#36;物体名 on the &#36;場所名 and give it to &#36;人物名. </li>
       </ul> 
     </td>
   </tr>
@@ -117,8 +115,8 @@
     <th> vision <br> (find obj | people) </th>
     <td>
       <ul>
-        <li> Tell me how many &#36; 物体カテゴリー名 there are on the  &#36; 場所名. </li>
-        <li> Tell me how many people in the &#36; 部屋名 are &#36; ポーズ. </li>
+        <li> Tell me how many &#36;物体カテゴリー名 there are on the  &#36;場所名. </li>
+        <li> Tell me how many people in the &#36;部屋名 are &#36;ポーズ. </li>
       </ul> 
     </td>
   </tr>
@@ -126,8 +124,8 @@
     <th> navigation <br> (follow, guide) </th>
     <td>
       <ul>
-        <li> Go to the &#36; 部屋名, find &#36; 人物名 at the &#36; 場所名 and follow (him | her). </li>
-        <li> Go to the &#36; 部屋名, find &#36; 人物名 at the &#36; 場所名 and guide (him | her) to the &#36; 場所名. </li>
+        <li> Go to the &#36;部屋名, find &#36;人物名 at the &#36;場所名 and follow (him | her). </li>
+        <li> Go to the &#36;部屋名, find &#36;人物名 at the &#36;場所名 and guide (him | her) to the &#36;場所名. </li>
       </ul> 
     </td>
   </tr>
@@ -135,8 +133,8 @@
     <th> speech <br> (question, answer) </th>
     <td>
       <ul>
-        <li> Go to the &#36; 部屋名, find &#36; 人物名 at the &#36; 場所名 and answer (his | her) question. </li>
-        <li> Go to the &#36; 部屋名, find &#36; 人物名 at the &#36; 場所名 and ask (him | her) &#36; 質問. </li>
+        <li> Go to the &#36;部屋名, find &#36;人物名 at the &#36;場所名 and answer (his | her) question. </li>
+        <li> Go to the &#36;部屋名, find &#36;人物名 at the &#36;場所名 and ask (him | her) &#36;質問. </li>
       </ul> 
     </td>
   </tr>
