@@ -6,6 +6,10 @@ This is a repository for rules of RoboCup Japan Open 2022 @Home League.
 **質問はissueまでお願いいたします．**
 
 # Open Platform League (OPL)
+
+## Rules
+- [General Rules and Regulations](rules/opl/generalrules.md)
+
 ## Tasks
 - Robot Inspection (setup day)
 - [Carry My Luggage](rules/opl/carry_my_luggage.md)
