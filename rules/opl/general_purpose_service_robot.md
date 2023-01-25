@@ -2,31 +2,26 @@
 参考動画：https://youtu.be/Hmcg-QO8Nso <br>
 ※ 参考動画は完璧ではありません．年によってルールも異なるので，あくまで参考程度にしてください．
 
-※ 詳細なルールや配点につきましては，参加チーム間でのディスカッションを経て，確定版へ仕上げていきたいと考えています．このディスカッションにつきましては，RoboCup@Homeのslackコミュニティ内で行いますので，そちらへの参加をお願いします．
+※ 詳細なルールや配点につきましては，アリーナ環境が決まり次第，追加していきます．気になる点や議論したい点などがありましたら，[Issues](https://github.com/RoboCupAtHomeJP/Rule2022/issues)へお願いします．
 
-## OPLで共通するルール
- - 各競技の最高得点は500点
- - Robot InspectionとFinalsを除く
- - チームは各競技における最高得点の合計点で競う
-   - Finalsを含むかどうか(要検討)
- - オペレータは自チームから出していい
- - 制限時間内であればリスタートは何回やってもいいリスタート直後のタスクの点数は半分になる)
-   - リスタート時，ロボットが持っている場合は，物体を持たせたままにするか，取り上げるかはチームが選択できる
-   - ただし取り上げた物体は，その後アリーナの外で保管)
-   - このTask中で取り上げた物体は使うことが出来ない
-- 音声対話で聞き返す回数による減点はなし
-- 競技の達成時間による加点はなし(要検討)
+<br>
 
 ## メインゴール
 このタスクでは，ロボットがユーザからの様々な要求に対して応じる汎用サービスを想定しています．そのため，この競技では，予め決められたタスクの流れや命令，行動内容などは存在しません．競技内でユーザが要求するタスクは，大量に用意したタスク内容の中から審査員によってランダムに選択されていきます．これらの要求は，複雑さに応じて3つのカテゴリに分類され，このカテゴリの難易度に基づいて得点も変化していきます．
 
+<br>
+
 ## フォーカス
 このタスクは，複雑な音声対話，予め定義されていない命令の実行，効率的かつスピーディなタスクの実行，既知環境でのマッピングやナビゲーション，タスクプランニングなどに焦点を当てています．
+
+<br>
 
 ## セットアップ
 - ロケーション： 家庭環境を模したアリーナ環境が用いられます．特に競技はリビングルームで行われます．アリーナ内は事前にマッピングすることができます(既知の環境)．
 - スタートロケーション： ロボットは，アリーナの外からスタートします．
 - オペレータ：オペレータは，ランダムに選択されたタスクを，ロボットに実行するよう命令します．
+
+<br>
 
 ## シナリオ
 ### a. スタートフェーズ
@@ -51,8 +46,11 @@
      2回目，3回目の命令を達成するとスコアが高くなるため，あえて命令を聞き取るだけにとどめて，何もせずに戻ってきて次の命令にトライすることは禁止とします．
      タスク達成のために何らかの挑戦を行わなければないけません．また，2回目，3回目の命令のスコアの扱いは1回目，2回目のタスクを達成できたかどうかで判断します．
   
-  **※ コマンドジェネレータは使用せずに運営側で作成したものを使用**<br>
-     例「Please go to <場所>, and pick up <物>」みたいに変数が入るコマンドリストを用意して，コマンドリストと変数の両方を抽選する形式になります．
+  **※ コマンドジェネレータの事前公開**<br>
+     RoboCup@Homeの[GitHubに公開されているコマンドジェネレータ](https://github.com/RoboCupAtHome/Sydney2019)を使用します(2019 Sydney 世界大会)．
+     しかし，カテゴリやオブジェクト，場所名などは本番用に向けて変更されるので，あくまでテスト用としての使用に限ります．
+
+<br>
 
 ## デウスエクスマキナ
 本タスクでは，次のデウスエクスマキナが採用されます．デウスエクスマキナでは該当アクションの点数は入らないが，より簡単な手法でアクションをスキップし，タスクを継続することができます．
@@ -79,8 +77,62 @@
       </ul> 
     </td>
   </tr>
+   <tr>
+    <td> コマンドセットの使用 </td>
+    <td>
+      <ul>
+        <li> Command Category 1の命令文をコマンドジェネレータで生成する代わりに，コマンドセットを使用する </li>
+        <li> その場合，命令理解の得点は0.7倍される </li>
+      </ul> 
+    </td>
+  </tr>
+</table>
+     
+### コマンドセット
+<table>
+  <tr>
+    <th> <b>タスクの種類<b> </th>
+    <th> <b>命令文例<b> </th>
+  </tr>
+  <tr>
+    <td> bring </td>
+    <td>
+      <ul>
+        <li> Go to the &dollar; 部屋名, grasp the &dollar; 物体名 on the &dollar; 場所名 and place it on the &dollar; 場所名. </li>
+        <li> Go to the &dollar; 部屋名, grasp the &dollar; 物体名 on the &dollar; 場所名 and give it to &dollar; 人物名. </li>
+      </ul> 
+    </td>
+  </tr>
+  <tr>
+    <td> vision <br> (find obj | people) </td>
+    <td>
+      <ul>
+        <li> Tell me how many &dollar; 物体カテゴリー名 there are on the  &dollar; 場所名. </li>
+        <li> Tell me how many people in the &dollar; 部屋名 are &dollar; ポーズ. </li>
+      </ul> 
+    </td>
+  </tr>
+  <tr>
+    <td> navigation <br> (follow, guide) </td>
+    <td>
+      <ul>
+        <li> Go to the &dollar; 部屋名, find &dollar; 人物名 at the &dollar; 場所名 and follow (him | her). </li>
+        <li> Go to the &dollar; 部屋名, find &dollar; 人物名 at the &dollar; 場所名 and guide (him | her) to the &dollar; 場所名. </li>
+      </ul> 
+    </td>
+  </tr>
+  <tr>
+    <td> speech <br> (question, answer) </td>
+    <td>
+      <ul>
+        <li> Go to the &dollar; 部屋名, find &dollar; 人物名 at the &dollar; 場所名 and answer (his | her) question. </li>
+        <li> Go to the &dollar; 部屋名, find &dollar; 人物名 at the &dollar; 場所名 and ask (him | her) &dollar; 質問. </li>
+      </ul> 
+    </td>
+  </tr>
 </table>
 
+<br>
 
 ## スコアシート
 <table>
@@ -98,7 +150,7 @@
   <tr>
     <td> 1回目の命令タスク※を実行 <br> 
       <ul>
-        <li> タスクを完遂する(Command Category(Cat.)で倍率変動) </li>
+        <li> タスクを完遂する(Command Category(Cat. = 1, 2, 3)で倍率変動) </li>
         <ul>
           <li> 把持対象の場所まで移動する </li>
           <li> 物体を把持する </li>
@@ -107,12 +159,12 @@
         </ul>
       </ul> 
     </td>
-    <td align="center"> <!-- 60 --> <br> 20 × Cat. <br> 5 <br> 5 <br> 5 <br> 5 </td>
+    <td align="center"> <!-- 60 <br> --> 20 × Cat. <br> 5 <br> 5 <br> 5 <br> 5 </td>
   </tr>
   <tr>
     <td> 2回目の命令タスク※を実行</b> <br> 
       <ul>
-        <li> タスクを完遂する(Command Category(Cat.)で倍率変動) </li>
+        <li> タスクを完遂する(Command Category(Cat. = 1, 2, 3)で倍率変動) </li>
         <ul>
           <li> 把持対象の場所まで移動する </li>
           <li> 物体を把持する </li>
@@ -121,12 +173,12 @@
         </ul>
       </ul> 
     </td>
-    <td align="center"> <!-- 60 --> <br> 40 × Cat. <br> 10 <br> 10 <br> 10 <br> 10 </td>
+    <td align="center"> <!-- 60 <br> --> 40 × Cat. <br> 10 <br> 10 <br> 10 <br> 10 </td>
   </tr>
   <tr>
     <td> 3回目の命令タスク※を実行 <br> 
       <ul>
-        <li> タスクを完遂する(Command Category(Cat.)で倍率変動) </li>
+        <li> タスクを完遂する(Command Category(Cat. = 1, 2, 3)で倍率変動) </li>
         <ul>
           <li> 把持対象の場所まで移動する </li>
           <li> 物体を把持する </li>
@@ -135,7 +187,7 @@
         </ul>
       </ul> 
     </td>
-    <td align="center"> <!-- 60 --> <br> 80 × Cat. <br> 20 <br> 20 <br> 20 <br> 20 </td>
+    <td align="center"> <!-- 60 <br> --> 80 × Cat. <br> 20 <br> 20 <br> 20 <br> 20 </td>
   </tr>
   <tr>
     <td> 全てのコマンドを実行した後アリーナから退出 </td>
@@ -153,7 +205,8 @@
     <td align="center"> <b>500</b> </td>
   </tr>
 </table>
-※ Bringタスクを例に部分点を記載
+
+※ スコアシートでは，Bringタスクを例に部分点を記載しています．
 
 <!--
 ## 運営のやること
