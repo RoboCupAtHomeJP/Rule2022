@@ -141,13 +141,13 @@
 </table>
 
 OPLのスコアシート：[RCJP_opl_tidyup_scoresheet_v1](https://docs.google.com/spreadsheets/d/1Dn0LTINAVYMcSL2Yoqi4iicPZOmU6h8e/edit?usp=sharing&ouid=115914283332872721627&rtpof=true&sd=true)
- 
-<!--
-## 運営のやること
+
+<br>
+
+## 運営による指示
 - 準備(競技の数日～数週間前)
   - 既知物体の選択，リストの公開(インターネット)．
   - 未知物体の選択，購入，現物の郵送(各チーム)．
 - アナウンス(競技の30分前から)
   - 物体の初期設置場所を選択し，アナウンスする．
   - 未知物体を指定し，アナウンスする．
---!>
