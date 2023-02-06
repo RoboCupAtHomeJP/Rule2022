@@ -26,6 +26,15 @@ This is a repository for rules of RoboCup Japan Open 2022 @Home League.
 - [Tidy Up for WRS2020](rules/dspl/tidyup.md)
 - Finals
 
+# Education League
+## Tasks
+- Poster session (setup day)
+- Carry My Luggage
+- Find My Mates
+- Finals
+## Rules
+- Tasks will be conducted in according with the RoboCup@Home Education Challenge 2022 Rules (https://www.robocupathomeedu.org/rules).
+
 # LINK
 
 - [情報発信サイト](https://github.com/RoboCupAtHomeJP/AtHome2022)
