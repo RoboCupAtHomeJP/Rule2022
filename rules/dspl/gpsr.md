@@ -56,10 +56,10 @@
 
 | タスクの種類 | 命令文 |
 | --- | --- |
-| bring |✓Go to the \${部屋名}, grasp the \${物体名} on the \${場所名} and place it on the \${場所名}.<br>✓Go to the \${部屋名}, grasp the \${物体名} on the \${場所名} and give it to \${人物名}. |
-| vision<br>(find obj \| people) | ✓Tell me how many \${物体カテゴリー名} there are on the \${場所名}.<br>✓Tell me how many people in the \${部屋名} are \${ポーズ}. |
-| navigation<br>(follow, guide) | ✓Go to the \${部屋名}, find \${人物名} at the \${場所名} and follow (him \| her).<br>✓Go to the \${部屋名}, find \${人物名} at the \${場所名} and guide (him \| her) to the \${場所名}. |
-| navigation<br>(follow, guide) | ✓Go to the \${部屋名}, find \${人物名} at the \${場所名} and answer (his \| her) question. <br> ✓Go to the \${部屋名}, find \${人物名} at the \${場所名} and ask (him \| her) \${質問}. |
+| bring |✓Go to the ＄{部屋名}, grasp the ＄{物体名} on the ＄{場所名} and place it on the ＄{場所名}.<br>✓Go to the ＄{部屋名}, grasp the ＄{物体名} on the ＄{場所名} and give it to ＄{人物名}. |
+| vision<br>(find obj \| people) | ✓Tell me how many ＄{物体カテゴリー名} there are on the ＄{場所名}.<br>✓Tell me how many people in the ＄{部屋名} are ＄{ポーズ}. |
+| navigation<br>(follow, guide) | ✓Go to the ＄{部屋名}, find ＄{人物名} at the ＄{場所名} and follow (him \| her).<br>✓Go to the ＄{部屋名}, find ＄{人物名} at the ＄{場所名} and guide (him \| her) to the ＄{場所名}. |
+| navigation<br>(follow, guide) | ✓Go to the ＄{部屋名}, find ＄{人物名} at the ＄{場所名} and answer (his \| her) question. <br> ✓Go to the ＄{部屋名}, find ＄{人物名} at the ＄{場所名} and ask (him \| her) ＄{質問}. |
 
 
 ## スコアシート
