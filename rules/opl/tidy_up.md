@@ -144,7 +144,7 @@ OPLのスコアシート：[RCJP_opl_tidyup_scoresheet_v1](https://docs.google.c
 
 <br>
 
-## 運営(OC)による指示
+## 運営(EC)による指示
 - 準備(競技の数日～数週間前)
   - 未知物体を選択し，購入します．
 - アナウンス(競技の30分前から)
