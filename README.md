@@ -19,7 +19,8 @@ This is a repository for rules of RoboCup Japan Open 2022 @Home League.
 - [Finals](rules/opl/finals.md)
 
 # Domestic Standard Platform League (DSPL)
-- 本リーグでは各タスクの点数として，実施トライアル中の最高点を採用する．
+- 本リーグでは各タスクの点数として，実施トライアル中の最高点を採用します
+- 各タスクの点数は，比率が（R.I 1 : Restaurant 3 : GPSR 3 : Tidy Up 3）となるように調整されます
 
 ## Tasks
 - Robot Inspection (setup day)
