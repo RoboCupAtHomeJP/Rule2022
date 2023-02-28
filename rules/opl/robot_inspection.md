@@ -80,6 +80,9 @@
     <th> <b>Score</b> </th>
   </tr>
   <tr>
+    <td colspan="2" align="center"> <b>メインタスク</b> </td>
+  </tr>
+  <tr>
     <td> ドアオープンを検出し，アリーナへ入る </td>
     <td align="center"> 20 </td>
   </tr>
