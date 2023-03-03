@@ -61,6 +61,13 @@
 | navigation<br>(follow, guide) | ✓Go to the ＄{部屋名}, find ＄{人物名} at the ＄{場所名} and follow (him \| her).<br>✓Go to the ＄{部屋名}, find ＄{人物名} at the ＄{場所名} and guide (him \| her) to the ＄{場所名}. |
 | navigation<br>(follow, guide) | ✓Go to the ＄{部屋名}, find ＄{人物名} at the ＄{場所名} and answer (his \| her) question. <br> ✓Go to the ＄{部屋名}, find ＄{人物名} at the ＄{場所名} and ask (him \| her) ＄{質問}. |
 
+## 準備
+- 準備日
+  - 部屋，ロケーション，人物の名称を公開．
+  - 物体の置かれる可能性がある場所を公開．
+- アナウンス(競技2時間前)
+  - アリーナの入口と出口のドアの場所，インストラクションポイントを公開．
+
 
 ## スコアシート
 | Action | Score |
