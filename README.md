@@ -23,7 +23,7 @@ This is a repository for rules of RoboCup Japan Open 2022 @Home League.
 - 各タスクの点数は，比率が（R.I 1 : Restaurant 3 : GPSR 3 : Tidy Up 3）となるように調整されます
 
 ## Tasks
-- Robot Inspection (setup day)
+- [Robot Inspection](rules/dspl/robotinspection.md) (setup day)
 - [Restaurant](rules/dspl/restaurant.md)
 - [General Purpose Service Robots (GPSR)](rules/dspl/gpsr.md)
 - [Tidy Up for WRS2020](rules/dspl/tidyup.md)
