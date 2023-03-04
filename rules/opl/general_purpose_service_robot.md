@@ -48,7 +48,8 @@
      タスク達成のために何らかの挑戦を行わなければないけません．また，2回目，3回目の命令のスコアの扱いは1回目，2回目のタスクを達成できたかどうかで判断します．
   
   **※ コマンドジェネレータの事前公開**<br>
-     RoboCup@Homeの[GitHubに公開されているコマンドジェネレータ](https://github.com/RoboCupAtHome/Sydney2019)を使用します(2019 Sydney 世界大会)．
+     ~~RoboCup@Homeの[GitHubに公開されているコマンドジェネレータ](https://github.com/RoboCupAtHome/Sydney2019)を使用します(2019 Sydney 世界大会)．~~
+     上記のコマンドジェネレータはカテゴリー制が採用されていないため，[こちらのコマンドジェネレータ](https://github.com/kyordhel/GPSRCmdGen/tree/legacy)を使用します(kyordhel legacyブランチ)．
      しかし，カテゴリやオブジェクト，場所名などは本番用に向けて変更されるので，あくまでテスト用としての使用に限ります．
 
 <br>
