@@ -211,6 +211,52 @@
 
 ※ スコアシートでは，Bringタスクを例に部分点を記載しています．
 
+### 各タスクにおける部分点の内訳
+<table>
+  <tr>
+    <th> <b>タスクの種類<b> </th>
+    <th> <b>部分点(1/4)<b> </th>
+    <th> <b>部分点(2/4)<b> </th>
+    <th> <b>部分点(3/4)<b> </th>
+    <th> <b>部分点(4/4)<b> </th>
+  </tr>
+  <tr>
+    <td align="center"> bring </td>
+    <td> 物体の前まで移動する </td>
+    <td> 物体を把持する </td>
+    <td> 配置場所 / 人の前まで移動する </td>
+    <td> 物体を配置する / 渡す </td>
+  </tr>
+  <tr>
+    <td align="center"> vision </td>
+    <td> 観測する部屋・場所まで移動する </td>
+    <td> 対象を観測する </td>
+    <td> オペレーターの前まで移動する </td>
+    <td> 観測結果を報告する </td>
+  </tr>
+  <tr>
+    <td align="center"> navigation </td>
+    <td> 人の前まで移動する </td>
+    <td> 人を追従 / 誘導する </td>
+    <td> 追従 / 誘導先まで移動する </td>
+    <td> 追従終了を認識 / 誘導終了を報告する </td>
+  </tr>
+  <tr>
+    <td align="center"> speech(ask) </td>
+    <td> 人の前まで移動する </td>
+    <td> 人に質問する </td>
+    <td> オペレーターの前まで移動する </td>
+    <td> 質問の答えを報告する </td>
+  </tr>
+  <tr>
+    <td align="center"> speech(answer) </td>
+    <td> 人の前まで移動する </td>
+    <td> 人に質問を要求する </td>
+    <td> 質問に答える </td>
+    <td> オペレーターの前まで移動する </td>
+  </tr>
+</table>      
+
 <br>
 
 ## 運営(EC)による指示
